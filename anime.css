@@ -27,13 +27,21 @@
     font-size: 2vw;
     text-align: center;
 }
+.mul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
 .shade{
     width: 250px;
-    height: 360px;
+    height: 347px;
     background-color: silver;
-    float: right;
-    font-family:'Courier New', Courier, monospace;
     border: 3px solid tomato;
+}
+.now{
+    display: flex;
 }
 #tab{
     background-color: burlywood;
@@ -42,15 +50,6 @@ h1 {
         text-shadow: 0 0 5px white;
     }
 
-p{
-    color:aqua;
-}
-h3{
-    color:white;
-}
-li{
-    color:antiquewhite;
-}
 .next{
     text-decoration: none;
     color: aqua;
@@ -83,6 +82,73 @@ nav > ul{
 nav li:hover{
     background-color: aqua;
 }
+.ans a{
+    text-decoration: none;
+    color: brown;
+}
+.ans a:hover{
+    color: tomato;
+}
+.mull{
+    height: auto;
+    width: 980px;
+    margin-top: 100px;
+    padding: 48px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.2);
+  }
+  .one{
+    margin-top: 60px;
+    padding-left: 48px;
+    padding-right: 48px;
+    text-align: center;
+  }
+  .new{
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .why{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+  }
+  .two{
+    background-color: white;
+    margin-top: 32px;
+    display: flex;
+    border-radius: 16px;
+    padding: 48px;
+    justify-content: space-between;
+        gap: 30px;
+  }
+  .learn{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 180px;
+    height: 48px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  .more{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
 .parent{
 display: flex;
