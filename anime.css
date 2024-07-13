@@ -1,0 +1,100 @@
+.black-ops-one-regular {
+    font-family: "Black Ops One", system-ui;
+    font-style: normal;
+  }
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 600px;
+    padding-top: 10vh;
+    background-image: url('website/7944042.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+.xyz{
+    max-width: 20vw;
+    height: auto;
+}
+
+.new{
+    width: 100%;
+    font-weight: 900;
+    font-size: 2vw;
+    text-align: center;
+}
+.shade{
+    width: 250px;
+    height: 360px;
+    background-color: silver;
+    float: right;
+    font-family:'Courier New', Courier, monospace;
+    border: 3px solid tomato;
+}
+#tab{
+    background-color: burlywood;
+}
+h1 {
+        text-shadow: 0 0 5px white;
+    }
+
+p{
+    color:aqua;
+}
+h3{
+    color:white;
+}
+li{
+    color:antiquewhite;
+}
+.next{
+    text-decoration: none;
+    color: aqua;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+li::marker {
+color: red;
+}
+
+nav > ul > li{
+font-size: larger;
+font-weight: 800;
+
+}
+nav li > a {
+text-decoration: none;
+color: black;
+
+}
+nav li{
+    border: 2px solid gray;
+    padding: 5px 10px;
+}
+
+nav > ul{
+   display: flex;
+   justify-content: space-around;
+}
+nav li:hover{
+    background-color: aqua;
+}
+
+.parent{
+display: flex;
+gap: 1px;
+justify-content: start;
+}
+
+.child{
+color: aquamarine;
+border: 2px solid white;
+padding: 5px;
+padding-left: 75px;
+padding-right: 75px;
+
+}
